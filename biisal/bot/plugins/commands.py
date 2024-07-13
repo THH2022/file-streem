@@ -64,7 +64,7 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("The Happy Hour 🌿", url=bisal_channel)
+            [InlineKeyboardButton("The Happy Hour 🌿", url=bisal_channel)]
         ]
     )
 )
@@ -115,7 +115,7 @@ async def help_cd(b, m):
     reply_markup=InlineKeyboardMarkup(
         [
             [   
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)]
+                InlineKeyboardButton("The Happy Hour 🌿", url=bisal_channel)]
         ]
     )
 )
