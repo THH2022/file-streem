@@ -21,13 +21,19 @@ MY_PASS = os.environ.get("MY_PASS", None)
 pass_dict = {}
 pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 
-msg_text ="""<b>Fɪʟᴇ ɴᴀᴍᴇ : {}
+msg_text ="""<b>━━━━━━━━━━━━━━━━━━━━━━━━
+
+Fɪʟᴇ ɴᴀᴍᴇ : {}
 
 Fɪʟᴇ Sɪᴢᴇ : {}
+
+━━━━━━━━━━━━━━━━━━━━━━━━
 
 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ : {}
 
 Wᴀᴛᴄʜ Oɴʟɪɴᴇ : {}
+
+━━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 
