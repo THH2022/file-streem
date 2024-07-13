@@ -115,18 +115,7 @@ async def help_cd(b, m):
     reply_markup=InlineKeyboardMarkup(
         [
             [   
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)
-            ],
-            [
-                InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                InlineKeyboardButton("ᴏᴜʀ ɢʀᴏᴜᴘ 🚩", url=bisal_grp),
-
-            ],
-            [
-                InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-
-            ]
-
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)]
         ]
     )
 )
