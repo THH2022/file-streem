@@ -18,7 +18,7 @@ class Var(object):
     name = str(getenv('name', 'THH_Streem_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '0'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001992201683'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002208313053'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002234800214'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
