@@ -14,11 +14,11 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '24579842'))
     API_HASH = str(getenv('API_HASH', 'ec6105bf1a02c98f837300546dc341d1'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7079126858:AAHMVo3KZgPXvcH7Mdr-0_PQWCQQ1y_vmig'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7079126858:AAGTAVqPyJObPqK2Th2aKevqI52XZWTO5mU'))
     name = str(getenv('name', 'THH_Streem_Bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '0'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002229411553'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002203015475'))
     NEW_USER_LOG = int(getenv('NEW_USER_LOG', '-1002234800214'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
